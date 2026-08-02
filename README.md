@@ -1,42 +1,75 @@
-# Rubik's Cube Solver 🧩
+# 🧩 Rubik's Cube Solver
 
-An interactive, 3D Rubik's Cube Solver built with HTML, CSS, and JavaScript. 
+An interactive **3D Rubik's Cube Solver** built using **HTML, CSS, and JavaScript** that helps users solve a physical Rubik's Cube through **webcam scanning**, **manual color verification**, and **animated step-by-step visualization**.
 
-You can access the live version of this solver here: **[Live Demo](https://gitarnavgoel.github.io/rubiks-solver/)**
+## 🚀 Live Demo
 
-## Features
+🌐 **Try it here:**
+https://sapteshh16.github.io/rubiks-cube-solver/
 
-- **Webcam Scanner:** Scan your physical Rubik's Cube using your laptop camera.
-- **Auto-Mirror Correction:** Aim comfortably using the mirror view. The app automatically corrects the mirror effect when capturing colors.
-- **Interactive 2D Editor:** Tweak scanned colors manually or color the net from scratch on the verification screen.
-- **Piece Validation:** Instantly checks for physically impossible configurations (like duplicate edges or invalid corners) before solving.
-- **Kociemba Solver:** Runs the solver algorithm inside a Web Worker so the browser never freezes.
-- **3D Animation:** View the step-by-step solution on a 3D cube with speed controls.
+---
 
-## How to Run Locally
+## ✨ Features
 
-This is a static web app. You do not need to install any heavy packages.
+* 📷 Scan all six cube faces using your webcam
+* 🔄 Mirror camera option for easier scanning
+* 🎨 Manually verify and edit detected colors
+* ✅ Cube state validation before solving
+* 🧠 Fast solving using the Kociemba Algorithm
+* 🎬 Interactive 3D solution playback
+* ⏯️ Step-by-step move navigation
+* ⚡ Adjustable animation speed
+* 📱 Modern responsive user interface
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/gitarnavgoel/rubiks-solver.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd rubiks-solver
-   ```
-3. Start a local server (e.g., using Python):
-   ```bash
-   python -m http.server 8000
-   ```
-4. Open `http://localhost:8000` in your web browser. 
+---
 
-*(Note: The webcam scanner requires a secure connection (`https://` or `localhost`) to access the camera).*
+## 🛠️ Tech Stack
 
-## Technologies Used
+* HTML5
+* CSS3
+* JavaScript (ES6 Modules)
+* Three.js
+* cubejs
+* Web Workers
+* WebRTC (Camera Access)
 
-- HTML5 & CSS3
-- JavaScript (ES6 Modules)
-- **Three.js** (for 3D rendering)
-- **cubejs** (for Kociemba solver)
-- **Boxicons** (for interface icons)
+---
+
+## 🎮 How to Use
+
+1. Allow camera permission.
+2. Scan all six faces of the cube.
+3. Verify and correct detected colors if required.
+4. Validate the cube configuration.
+5. Generate the solution.
+6. Watch the animated 3D solving process.
+7. Control playback using the navigation buttons and speed slider.
+
+---
+
+## 🔮 Future Improvements
+
+* Mobile camera optimization
+* Dark/Light theme switching
+* Move history export
+* Keyboard shortcuts
+* Better color detection using Machine Learning
+* Performance optimizations for larger animations
+
+---
+
+## 🙏 Acknowledgements
+
+This project was developed as a learning project with UI customization and personal enhancements. It is inspired by publicly available Rubik's Cube solver implementations and builds upon established solving techniques such as the Kociemba Algorithm.
+
+---
+
+## 👨‍💻 Author
+
+**Saptesh Jawalkar**
+
+* GitHub: https://github.com/Sapteshh16
+
+---
+
+### ⭐ If you found this project interesting, consider giving it a star!
